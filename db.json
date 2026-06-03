@@ -1,0 +1,23 @@
+{
+  "columns": [
+    { "id": "todo", "title": "To Do", "order": 0 },
+    { "id": "doing", "title": "In Progress", "order": 1 },
+    { "id": "done", "title": "Done", "order": 2 }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "columnId": "todo",
+      "title": "Setup Vue project",
+      "description": "Install Vite, Pinia and json-server",
+      "order": 0
+    },
+    {
+      "id": "2",
+      "columnId": "doing",
+      "title": "Create Kanban UI",
+      "description": "Build Board, Column and Card components",
+      "order": 0
+    }
+  ]
+}
